@@ -11,7 +11,7 @@
             Face Morph Using OpenCV ? C++ / Python <br>
             <a href="https://learnopencv.com/face-morph-using-opencv-cpp-python">https://learnopencv.com/face-morph-using-opencv-cpp-python</a><br>
             <a href="https://raw.githubusercontent.com/spmallick/learnopencv/master/FaceMorph/faceMorph.py">https://raw.githubusercontent.com/spmallick/learnopencv/master/FaceMorph/faceMorph.py</a><br>
-            <img src="images/FaceMorph.png">
+            <img src="images/FaceMorph.gif">
         </p>
         <h2>環境構築方法</h2>
         <p>

@@ -41,5 +41,18 @@
         </p>
         <h2>使用例</h2>
         <img src="images/example.svg">
+        <h2>その他</h2>
+        <h3>Thin Plate Spline</h3>
+        <p>
+            <a href="https://github.com/yoyo-nb/Thin-Plate-Spline-Motion-Model">Thin-Plate-Spline-Motion-Model</a><br>
+            が、かなりリアルだったので、Thin Plate Splineを使ってFaceMorphを作ってみた。<br>
+            <img src="images/tps_face_morph.png"><br>
+            ・scikit-imageが0.24より古い場合はupgradeする。<br>
+            　pip install --upgrade scikit-image<br>
+            ・python src\tps_face_morph.py (画像ファイル1) (画像ファイル2)<br>
+            　sキー押下でモーフィングした画像を保存する。<br>
+            ・facemeshが多いとうまく変換してくれなかったので、機械的に間引いている。<br>
+            　大事なキーポイントを選んで間引くことで多少改善するかもしれない(未確認)。<br>
+        </p>
     </body>
 </html>

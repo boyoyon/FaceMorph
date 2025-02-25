@@ -53,6 +53,16 @@
             　sキー押下でモーフィングした画像を保存する。<br>
             ・facemeshが多いとうまく変換してくれなかったので、機械的に間引いている。<br>
             　大事なキーポイントを選んで間引くことで多少改善するかもしれない(未確認)。<br>
+            <br>
+            mediapipe facemesh にパラメータ refine_landmarks=True を指定すると虹彩の中心、上下左右のlandmarkが追加される。<br>
+            その他のlandmarkの位置も若干変わる。<br>
+            <img src="images/landmarks.png"><br>
+            refine_landmarks=Trueを指定＋虹彩の中心、上下左右が間引かれな対応を実施した。<br>
+            ・虹彩のぶれ<br>
+            ・あご輪郭のぶれ<br>
+            が少しだけ改善する<br>
+            python src/tps_face_morph_refine_landmarks.py (画像1) (画像2)<br>
+            <img src="images/before_after_refine_landmarks.png">
         </p>
     </body>
 </html>
